@@ -1,4 +1,4 @@
-# JayHawkPlusBackend
+# JayHawk+ Backend
 
 Hello, this ReadMe is for the JayHawk+ Backend Implementation for the JayHawk+ Web Application. All of the follwing source code is placed within the zip file. I will discuss how to setup the database with the respective tables for this backend solution to work. Additionally, an email must be created in order to use the outlook smtp service.
 
