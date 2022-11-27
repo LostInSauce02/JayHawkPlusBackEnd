@@ -1,6 +1,6 @@
 # JayHawkPlusBackend
 
-Hello, this ReadMe is for the JayHawk+ Backend Implementation for the JayHawk+ Web Application. All of the follwing source code is placed within the zip file. I will discuss how to setup the database with the respective tables for this backend solution to work.
+Hello, this ReadMe is for the JayHawk+ Backend Implementation for the JayHawk+ Web Application. All of the follwing source code is placed within the zip file. I will discuss how to setup the database with the respective tables for this backend solution to work. Additionally, an email must be created in order to use the outlook smtp service.
 
 **Depedencies**
 - .NET Core 3.1
@@ -9,7 +9,7 @@ Hello, this ReadMe is for the JayHawk+ Backend Implementation for the JayHawk+ W
 
 **SQL Express Database**
 
-Before we create the respective tables, we need to create a SQL Express Database within MS Visual Studios. You can achieve this by clicking on the view tab and selecting Server Explorer in MS Visual Studios. Then right click on Data Connections, where you should be able to add a new connection for a local database.
+Before we create the respective tables, we need to create a SQL Express Database within MS Visual Studios. You can achieve this by clicking on the view tab and selecting Server Explorer in MS Visual Studios. Then right click on Data Connections, where you should be able to add a new connection for a local database. Replace the connection string of the database in the Startup.cs file with the connection string of the database you have created.
 
 **AUTH Table**
 
